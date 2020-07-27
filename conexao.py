@@ -7,7 +7,6 @@ config = {
   'user': 'root',
   'password': '@Ussem01',
   'host': '127.0.0.1',
-  'database': 'delegacia',
   'raise_on_warnings': True
 }
 
@@ -22,7 +21,7 @@ except mysql.connector.Error as err:
     print(err)
 else:
     print("Conexão bem sucessida")
-    cnx.close()
+    
 
 DB_NAME = 'employees'
 
